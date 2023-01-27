@@ -12,13 +12,7 @@ public class Main {
         list.put(2, "Green");
         list.put(3, "Red");
         list.put(4, "Yellow");
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Введите значение: ");
-        String value = scan.nextLine();
-        for (String x : list.values())
-        if (x.equals(value)) {
-            System.out.println(list.keySet());
-        }
+        System.out.println(list.containsValue("Blue"));
 
 
 //Задание №13
